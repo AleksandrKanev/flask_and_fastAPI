@@ -14,7 +14,7 @@ def base():
 
 @app.route('/clothes/')
 def clothes():
-    return render_template('clothes.html')
+    return render_template('index.html')
 
 
 @app.route('/shoes/')
@@ -24,7 +24,7 @@ def shoes():
 
 @app.route('/jacket/')
 def jacket():
-    return render_template('jacket.html')
+    return render_template('error_age.html')
 
 
 if __name__ == '__main__':
